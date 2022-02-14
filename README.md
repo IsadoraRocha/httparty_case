@@ -9,10 +9,10 @@ Abra o terminal da sua IDE ou local na pasta do projeto e rode o comando
 > bundle install
 ```
 
-Após a instalação das gems é possível rodar o teste com a tag do cenário implementado, no caso a tag
+Após a instalação das gems é possível rodar o teste com a tag do cenário implementado, no caso a tag **@teste** utilizando o seguinte comando
 
 ```
-@teste
+> cucumber -t @teste
 ```
 
 Após finalziar o teste, um relatório será gerado dentro da pasta **report** e estará com o nome **report.html**
